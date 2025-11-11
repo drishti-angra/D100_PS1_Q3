@@ -46,7 +46,7 @@ complaints[["Complaint Type", "Borough"]]
 
 # %%
 # What's the most common complaint type?
-complaint_counts = complaints["Complaint Type"].value_counts()
+complaint_counts = complaints["Complaint Type"].value_counts() #if more than one column, it takes the value count of combination of columns
 complaint_counts[:10]
 
 # %%

@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 
 # This dataset is a list of how many people were on 7 different bike paths in Montreal, each day.
 
-broken_df = pd.read_csv("../data/bikes.csv", encoding="ISO-8859-1")
+broken_df = pd.read_csv("/Users/15dan/Documents/masters_mt/D100/Problem_Sheet_1/D100_PS1_Q3/data/bikes.csv", encoding="ISO-8859-1")
+broken_df.head()
 
 # TODO: please load the data with the Polars library (do not forget to import Polars at the top of the script) and call it pl_broken_df
 
