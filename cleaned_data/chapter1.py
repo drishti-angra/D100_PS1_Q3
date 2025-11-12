@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+#Chapter 1
 def broken_df(path: str, sep=None):
     """Read a CSV trying common non-UTF8 encodings."""
     for enc in ("utf-8", "utf-8-sig", "cp1252", "latin1", "iso-8859-1"):
@@ -21,6 +22,7 @@ def plot_berri1(df, columns, x_col="Date"):
 
     return plt
  
+ #Chapter 2
 
 def complaints_df(path:str, dtype="unicode"):
     """Read the complaints CSV with all columns as strings."""
@@ -58,6 +60,8 @@ def plot_top_complaints(df, n):
     plt.show()
 
     return plt
+
+#Chapter 3
 
 def complaint_by_borough(df, complaint_type):
     """
